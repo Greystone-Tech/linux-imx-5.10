@@ -236,6 +236,8 @@ static void option_instat_callback(struct urb *urb);
 /* These Quectel products use Qualcomm's vendor ID */
 #define QUECTEL_PRODUCT_UC20			0x9003
 #define QUECTEL_PRODUCT_UC15			0x9090
+#define QUECTEL_PRODUCT_EC20			0x9215
+#define QUECTEL_PRODUCT_EP06E			0x9008
 /* These u-blox products use Qualcomm's vendor ID */
 #define UBLOX_PRODUCT_R410M			0x90b2
 #define UBLOX_PRODUCT_R6XX			0x90fa
@@ -244,14 +246,40 @@ static void option_instat_callback(struct urb *urb);
 
 #define QUECTEL_VENDOR_ID			0x2c7c
 /* These Quectel products use Quectel's vendor ID */
-#define QUECTEL_PRODUCT_EC21			0x0121
-#define QUECTEL_PRODUCT_EC25			0x0125
-#define QUECTEL_PRODUCT_EG95			0x0195
-#define QUECTEL_PRODUCT_BG96			0x0296
-#define QUECTEL_PRODUCT_EP06			0x0306
-#define QUECTEL_PRODUCT_EM12			0x0512
-#define QUECTEL_PRODUCT_RM500Q			0x0800
-#define QUECTEL_PRODUCT_EC200T			0x6026
+#define QUECTEL_PRODUCT_EC21					0x0121
+#define QUECTEL_PRODUCT_EC25					0x0125
+#define QUECTEL_PRODUCT_EG95					0x0195
+#define QUECTEL_PRODUCT_BG96					0x0296
+#define QUECTEL_PRODUCT_EP06					0x0306
+#define QUECTEL_PRODUCT_EM12					0x0512
+#define QUECTEL_PRODUCT_RM500Q				0x0800 /* Quectel RG500/RM500/RG510/RM510 */
+#define QUECTEL_PRODUCT_EC200T				0x6026
+#define QUECTEL_PRODUCT_AG35					0x0435
+#define QUECTEL_PRODUCT_AG15					0x0415
+#define QUECTEL_PRODUCT_AG520 				0x0520
+#define QUECTEL_PRODUCT_AG550 				0x0550
+#define QUECTEL_PRODUCT_EG20 					0x0620
+#define QUECTEL_PRODUCT_EC200 				0x6026  /* Quectel EC200 */
+#define QUECTEL_PRODUCT_UC200 				0x6120  /* Quectel UC200 */
+#define QUECTEL_PRODUCT_EC200_UC200 	0x6000  /* Quectel EC200/UC200 */
+#define QUECTEL_PRODUCT_EC200A 			  0x6005  /* Quectel EC200A */
+
+
+/* FIBOCOM PRODUCTS */
+#define FIBOCOM_VENDOR_ID 					0x1782
+#define FIBOCOM_PRODUCT_L61031 			0x4D10
+#define FIBOCOM_PRODUCT_L61032 			0x4D11
+#define FIBOCOM_PRODUCT_L61033 			0x4D11
+
+/* MEIG PRODUCTS */
+#define MEIG_VENDOR_ID							0x2DEE
+#define MEIG_PRODUCT_SRM815 				0x4D22
+#define MEIG_PRODUCT_SRM815_ECM			0x4D23
+#define MEIG_PRODUCT_SLM790					0x4D20
+
+#define MEIG_QCM_VENDOR_ID											QUALCOMM_VENDOR_ID
+#define MEIG_QCM_PRODUCT_SLM750_SRM815_SLM868 	0xF601
+
 
 #define CMOTECH_VENDOR_ID			0x16d8
 #define CMOTECH_PRODUCT_6001			0x6001
