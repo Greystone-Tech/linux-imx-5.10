@@ -1,0 +1,30 @@
+/*
+ * Copyright (C) 2016-2019 Variscite Ltd. - https://www.variscite.com
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+/dts-v1/;
+
+/* Core Include for board setup */
+#include "imx6ull.dtsi"
+
+/* imx6ul-imx6ull board definitions for smartlink */
+#include "imx6ul-imx6ull-var-dart-smartlink.dtsi"
+
+/* iomuxc_snvs */
+#include "imx6ull-var-dart-smartlinkgt2.dtsi"
+
+/* Pin Include for Nand board setup */
+#include "imx6ul-imx6ull-var-dart-nand.dtsi"
+
+#include "imx6ull-var-dart-6ul-smartlinkgt2.dtsi"
+#include "imx6ul-imx6ull-var-dart-6ul-smartlink-gt2v5-rs232.dtsi"
+#include "imx6ul-imx6ull-var-dart-6ul-smartlink-sd-card.dtsi"
+
+/ {
+	model = "Variscite DART-6UL with i.MX6ULL, NAND flash & SD card support on VAR-6ULGreystone Modem GT4 v2,3,4 RS232";
+	compatible = "variscite,imx6ul-var-dart", "fsl,imx6ull";
+};
