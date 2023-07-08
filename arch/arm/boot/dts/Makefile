@@ -720,6 +720,7 @@ dtb-$(CONFIG_SOC_IMX6UL) += \
 	imx6ull-var-dart-6ulsmartlinkmodemgt2v5gpio-nand-sd-card.dtb \
 	imx6ull-var-dart-6ulsmartlinkmodemgt2v5rs232-nand-sd-card.dtb \
 	imx6ull-var-dart-6ulsmartlinkmodemgt4v4rs232-nand-sd-card.dtb \
+	imx6ull-var-dart-6ulsmartlinkmodemgt4v6gpio-nand-wifi.dts \
 	imx6ull-var-som-concerto-board-emmc-sd-card.dtb \
 	imx6ull-var-som-concerto-board-emmc-wifi.dtb \
 	imx6ull-var-som-concerto-board-nand-sd-card.dtb \
