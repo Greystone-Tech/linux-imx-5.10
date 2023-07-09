@@ -9,7 +9,10 @@
 /dts-v1/;
 
 /* Core Include for board setup */
-#include "imx6ull.dtsi"
+#include "imx6ul.dtsi"
+
+/* add WiFi support*/
+#include imx6ul-var-dart-6ulsmartlinkgt4-wifi.dtsi
 
 /* imx6ul-imx6ull board definitions for smartlink */
 #include "imx6ul-imx6ull-var-dart-smartlink.dtsi"
