@@ -18,7 +18,7 @@
 #include "imx6ul-imx6ull-var-dart-smartlink.dtsi"
 
 /* iomuxc_snvs */
-#include "imx6ull-var-dart-smartlinkgt4.dtsi"
+/* #include "imx6ull-var-dart-smartlinkgt4.dtsi" */
 
 /* Pin Include for Nand board setup */
 #include "imx6ul-imx6ull-var-dart-nand.dtsi"
