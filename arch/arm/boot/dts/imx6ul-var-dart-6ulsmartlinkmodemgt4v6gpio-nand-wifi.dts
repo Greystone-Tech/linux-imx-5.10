@@ -17,13 +17,12 @@
 /* imx6ul-imx6ull board definitions for smartlink */
 #include "imx6ul-imx6ull-var-dart-smartlink.dtsi"
 
-/* iomuxc_snvs */
-/* #include "imx6ull-var-dart-smartlinkgt4.dtsi" */
+/* iomux for imx6ul */
+#include "imx6ul-var-dart-smartlinkgt4.dtsi"
 
 /* Pin Include for Nand board setup */
 #include "imx6ul-imx6ull-var-dart-nand.dtsi"
 
-/* #include "imx6ull-var-dart-6ul-smartlinkgt4.dtsi" */
 #include "imx6ul-imx6ull-var-dart-6ul-smartlink-gt4v6-gpio.dtsi"
 #include "imx6ul-imx6ull-var-dart-wifi.dtsi"
 
