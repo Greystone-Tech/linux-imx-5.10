@@ -14,6 +14,9 @@
 /* imx6ul-imx6ull board definitions for smartlink */
 #include "imx6ul-imx6ull-var-dart-smartlink.dtsi"
 
+/* add WiFi support*/
+#include "imx6ull-var-dart-6ulsmartlinkgt4-wifi.dtsi"
+
 /* iomuxc_snvs */
 #include "imx6ull-var-dart-smartlinkgt4.dtsi"
 
