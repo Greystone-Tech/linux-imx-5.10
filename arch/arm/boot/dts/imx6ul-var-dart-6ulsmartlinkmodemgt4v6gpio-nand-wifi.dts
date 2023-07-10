@@ -23,7 +23,7 @@
 /* Pin Include for Nand board setup */
 #include "imx6ul-imx6ull-var-dart-nand.dtsi"
 
-#include "imx6ull-var-dart-6ul-smartlinkgt4.dtsi"
+/* #include "imx6ull-var-dart-6ul-smartlinkgt4.dtsi" */
 #include "imx6ul-imx6ull-var-dart-6ul-smartlink-gt4v6-gpio.dtsi"
 #include "imx6ul-imx6ull-var-dart-wifi.dtsi"
 
