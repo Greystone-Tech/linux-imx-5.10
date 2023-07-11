@@ -11,21 +11,23 @@
 /* Core Include for board setup */
 #include "imx6ull.dtsi"
 
-/* imx6ul-imx6ull board definitions for smartlink */
-#include "imx6ul-imx6ull-var-dart-smartlink.dtsi"
-
-/* add WiFi support*/
-#include "imx6ull-var-dart-6ulsmartlinkgt4-wifi.dtsi"
+/* this enabled the pins to use the WiFi module */
+#include "imx6ul-imx6ull-var-dart-wifi.dtsi"
 
 /* iomuxc_snvs */
 #include "imx6ull-var-dart-smartlinkgt4.dtsi"
 
+/* add WiFi support*/
+#include "imx6ull-var-dart-6ulsmartlinkgt4-wifi.dtsi"
+
 /* Pin Include for Nand board setup */
 #include "imx6ul-imx6ull-var-dart-nand.dtsi"
 
+/* imx6ul-imx6ull board definitions for smartlink */
+#include "imx6ul-imx6ull-var-dart-smartlink.dtsi"
+
 #include "imx6ull-var-dart-6ul-smartlinkgt4.dtsi"
 #include "imx6ul-imx6ull-var-dart-6ul-smartlink-gt4v6-gpio.dtsi"
-#include "imx6ul-imx6ull-var-dart-wifi.dtsi"
 
 / {
 	model = "Variscite DART-6UL with i.MX6ULL, NAND flash & WiFi support on VAR-6ULGreystone Modem GT4 v6 gpio";
